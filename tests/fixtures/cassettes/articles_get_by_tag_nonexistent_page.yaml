@@ -1,0 +1,70 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.21.0
+    method: GET
+    uri: https://dev.to/api/articles?page=999999999999&tag=python
+  response:
+    body:
+      string: '[]'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept, Authorization, Token
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '1728000'
+      Age:
+      - '0'
+      Cache-Control:
+      - public, no-cache
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 31 Mar 2019 11:35:01 GMT
+      Server:
+      - Cowboy
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 1b3de9ac-158e-41c4-9aae-81d2e8ea9901
+      X-Runtime:
+      - '0.140117'
+      X-Served-By:
+      - cache-den19644-DEN, cache-mxp19830-MXP
+      X-Timer:
+      - S1554032101.980465,VS0,VE470
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '2'
+    status:
+      code: 200
+      message: OK
+version: 1

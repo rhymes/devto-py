@@ -1,0 +1,70 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.21.0
+    method: GET
+    uri: https://dev.to/api/articles?tag=fo1obarabo1of&page=1
+  response:
+    body:
+      string: '[]'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept, Authorization, Token
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '1728000'
+      Age:
+      - '0'
+      Cache-Control:
+      - public, no-cache
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 31 Mar 2019 11:33:48 GMT
+      Server:
+      - Cowboy
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 7879f7db-7522-4c4a-a172-7ca747d1dfad
+      X-Runtime:
+      - '0.195143'
+      X-Served-By:
+      - cache-den19643-DEN, cache-mxp19821-MXP
+      X-Timer:
+      - S1554032028.910528,VS0,VE396
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '2'
+    status:
+      code: 200
+      message: OK
+version: 1

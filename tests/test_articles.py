@@ -54,3 +54,13 @@ def test_articles_by_tag_second_page(vcr):
         page_1 = articles_by_tag("python", page=1)
         page_2 = articles_by_tag("python", page=2)
         assert page_1 != page_2
+
+
+def test_articles_by_tag_unknown_tag(vcr):
+    with vcr.use_cassette("articles_get_by_tag_unknown_tag"):
+        assert not articles_by_tag("fo1obarabo1of")
+
+
+def test_articles_by_tag_nonexistent_page(vcr):
+    with vcr.use_cassette("articles_get_by_tag_nonexistent_page"):
+        assert not articles_by_tag("python", page=999999999999)
