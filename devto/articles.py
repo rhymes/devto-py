@@ -60,7 +60,7 @@ def article(article_id):
     """Retrieves a single article by ID."""
 
     try:
-        return _request("articles/%s" % article_id)
+        return _get("articles/%s" % article_id)
     except requests.exceptions.HTTPError as exc:
         if exc.response.status_code == 404:
             raise exceptions.NotFound(str(exc)) from exc
@@ -68,12 +68,10 @@ def article(article_id):
 
 
 def _get_articles(**params):
-    response = requests.get(urljoin(BASE_URL, "articles"), params=params)
-    response.raise_for_status()
-    return response.json()
+    return _get("articles", **params)
 
 
-def _request(path, **params):
+def _get(path, **params):
     response = requests.get(urljoin(BASE_URL, path), params=params)
     response.raise_for_status()
     return response.json()
