@@ -9,6 +9,7 @@ pytest-randomly = "*"
 pytest-sugar = "*"
 pytest-cov = "*"
 vcrpy = "*"
+pytest-watch = "*"
 
 [packages]
 requests = "*"
