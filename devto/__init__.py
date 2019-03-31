@@ -2,4 +2,4 @@
 
 """Dev.to REST API client"""
 
-from .client import articles
+from .client import articles, articles_by_tag

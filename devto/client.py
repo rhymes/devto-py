@@ -19,3 +19,10 @@ def articles(page=1):
     response = requests.get(urljoin(BASE_URL, "articles"), params=params)
     return response.json()
 
+
+def articles_by_tag(tag, *, page=1):
+    """Retrieves articles by tag."""
+
+    params = {"page": page, "tag": tag}
+    response = requests.get(urljoin(BASE_URL, "articles"), params=params)
+    return response.json()
