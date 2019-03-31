@@ -15,14 +15,15 @@ BASE_URL = "https://dev.to/api/"
 def articles(page=1):
     """Retrieves articles."""
 
-    params = {"page": page}
-    response = requests.get(urljoin(BASE_URL, "articles"), params=params)
-    return response.json()
+    return _get_articles(page=page)
 
 
-def articles_by_tag(tag, *, page=1):
+def articles_by_tag(tag, *, top=None, page=1):
     """Retrieves articles by tag."""
 
-    params = {"page": page, "tag": tag}
+    return _get_articles(tag=tag, top=top, page=page)
+
+
+def _get_articles(**params):
     response = requests.get(urljoin(BASE_URL, "articles"), params=params)
     return response.json()
