@@ -68,6 +68,12 @@ def _get_articles(**params):
 
 def _get(path, **params):
     headers = {"user-agent": "devto-py/%s" % __version__}
-    response = requests.get(urljoin(BASE_URL, path), params=params, headers=headers)
-    response.raise_for_status()
-    return response.json()
+
+    try:
+        response = requests.get(
+            urljoin(BASE_URL, path), params=params, headers=headers, timeout=2
+        )
+        response.raise_for_status()
+        return response.json()
+    except requests.exceptions.Timeout as exc:
+        raise exceptions.Timeout(str(exc)) from exc
