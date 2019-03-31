@@ -75,3 +75,15 @@ def test_articles_by_username(vcr):
     with vcr.use_cassette("articles_get_by_username"):
         for article in articles_by_username("ben"):
             assert article["user"]["username"] == "ben"
+
+
+def test_articles_by_username_second_page(vcr):
+    with vcr.use_cassette("articles_get_by_username_page_2"):
+        page_1 = articles_by_username("ben", page=1)
+        page_2 = articles_by_username("ben", page=2)
+        assert page_1 != page_2
+
+
+def test_articles_by_username_unknown_username(vcr):
+    with vcr.use_cassette("articles_get_by_username_unknown_username"):
+        assert not articles_by_username("fo1obarabo1of")

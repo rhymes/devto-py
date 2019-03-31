@@ -27,9 +27,16 @@ def articles_by_tag(tag, *, top=None, page=1):
 def articles_by_username(username, *, page=1):
     """Retrieves articles by username."""
 
-    return _get_articles(username=username, page=page)
+    try:
+        return _get_articles(username=username, page=page)
+    except requests.exceptions.HTTPError as exc:
+        # unknown username results in a 500 error
+        if exc.response.status_code == 500:
+            return []
+        raise exc
 
 
 def _get_articles(**params):
     response = requests.get(urljoin(BASE_URL, "articles"), params=params)
+    response.raise_for_status()
     return response.json()
