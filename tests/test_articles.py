@@ -5,6 +5,8 @@ from devto import (
     articles_by_tag,
     articles_by_username,
     articles_by_organization,
+    articles_fresh,
+    articles_rising,
 )
 
 
@@ -104,3 +106,13 @@ def test_articles_by_organization(vcr):
     with vcr.use_cassette("articles_get_by_username_organization"):
         for article in articles_by_organization("azure"):
             assert article["organization"]["username"] == "azure"
+
+
+def test_articles_fresh(vcr):
+    with vcr.use_cassette("articles_fresh"):
+        assert articles_fresh()
+
+
+def test_articles_rising(vcr):
+    with vcr.use_cassette("articles_rising"):
+        assert articles_rising()

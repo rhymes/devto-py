@@ -7,4 +7,6 @@ from .articles import (
     articles_by_tag,
     articles_by_username,
     articles_by_organization,
+    articles_fresh,
+    articles_rising,
 )

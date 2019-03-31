@@ -1,0 +1,81 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.21.0
+    method: GET
+    uri: https://dev.to/api/articles?state=fresh
+  response:
+    body:
+      string: '[{"type_of":"article","id":95939,"title":"How do you deal with stress?","description":"\n\n\n\n\n...","cover_image":null,"published_at":"2019-03-31T13:07:38.309Z","tag_list":["discuss"],"slug":"how-do-you-deal-with-stress-1lij","path":"/itsjzt/how-do-you-deal-with-stress-1lij","url":"https://dev.to/itsjzt/how-do-you-deal-with-stress-1lij","canonical_url":"https://dev.to/itsjzt/how-do-you-deal-with-stress-1lij","comments_count":0,"positive_reactions_count":0,"user":{"name":"Saurabh
+        Sharma","username":"itsjzt","twitter_username":"itsjzt","github_username":"itsjzt","website_url":"https://itsjzt.github.io","profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--GvTXCN8v--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/41065/7a92f3b5-e061-4d62-a946-29f114390912.jpg","profile_image_90":"https://res.cloudinary.com/practicaldev/image/fetch/s--ngdVmyNd--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/41065/7a92f3b5-e061-4d62-a946-29f114390912.jpg"},"flare_tag":{"name":"discuss","bg_color_hex":"#000000","text_color_hex":"#FFFFFF"}},{"type_of":"article","id":95936,"title":"I
+        am a programming coach/trainer, Ask Me Anything!","description":"\n\nI was
+        a programmer, I was a project in chief (the guy that hired developers), a...","cover_image":null,"published_at":"2019-03-31T13:10:29.738Z","tag_list":["ama"],"slug":"i-am-a-programming-coach-trainer-ask-me-anything-2mp2","path":"/jorgecc/i-am-a-programming-coach-trainer-ask-me-anything-2mp2","url":"https://dev.to/jorgecc/i-am-a-programming-coach-trainer-ask-me-anything-2mp2","canonical_url":"https://dev.to/jorgecc/i-am-a-programming-coach-trainer-ask-me-anything-2mp2","comments_count":0,"positive_reactions_count":0,"user":{"name":"Jorge
+        Castro","username":"jorgecc","twitter_username":null,"github_username":"jorgecc","website_url":"https://www.escuelainformatica.cl","profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--UAYVZVJv--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/125297/575db66b-df69-43d2-8b93-840f0dc479c8.jpeg","profile_image_90":"https://res.cloudinary.com/practicaldev/image/fetch/s--Q6x66X4m--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/125297/575db66b-df69-43d2-8b93-840f0dc479c8.jpeg"},"flare_tag":{"name":"ama","bg_color_hex":"#1395B8","text_color_hex":"#FFFFFF"}},{"type_of":"article","id":95920,"title":"My
+        free software and open source activities of March 2019","description":"\n\nA
+        lot of patch this month and you? [...]\n\nRead More...\n\nThe post My free
+        softwa...","cover_image":null,"published_at":"2019-03-31T09:54:30.000Z","tag_list":["classicpress","mozilla","opensource"],"slug":"my-free-software-and-open-source-activities-of-march-2019-5414","path":"/mte90/my-free-software-and-open-source-activities-of-march-2019-5414","url":"https://dev.to/mte90/my-free-software-and-open-source-activities-of-march-2019-5414","canonical_url":"https://daniele.tech/2019/03/my-free-software-and-open-source-activities-of-march-2019/","comments_count":0,"positive_reactions_count":0,"user":{"name":"Daniele
+        Scasciafratte","username":"mte90","twitter_username":"Mte90Net","github_username":"Mte90","website_url":"https://daniele.tech","profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--qiV6OlcW--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/1059/403283.jpeg","profile_image_90":"https://res.cloudinary.com/practicaldev/image/fetch/s--frqosZv1--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/1059/403283.jpeg"}},{"type_of":"article","id":95938,"title":"I
+        created a JavaScript free portfolio","description":"How I came out to make
+        my portfolio","cover_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--lno8Ox0z--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/jdatfxpk3fd6qhxs2wah.png","published_at":"2019-03-31T13:14:24.155Z","tag_list":["portfolioweb"],"slug":"i-created-a-javascript-free-portfolio-3o91","path":"/hamza/i-created-a-javascript-free-portfolio-3o91","url":"https://dev.to/hamza/i-created-a-javascript-free-portfolio-3o91","canonical_url":"https://hamza-tam.gitlab.io","comments_count":0,"positive_reactions_count":0,"user":{"name":"Hamza
+        Tamenaoul","username":"hamza","twitter_username":"_hamza_tam_","github_username":"hamza-tam","website_url":"https://hamza-tam.gitlab.io","profile_image":"https://res.cloudinary.com/practicaldev/image/fetch/s--fcWHE5Qq--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/50687/03827052-2382-44b8-adbb-2315f8d649ee.png","profile_image_90":"https://res.cloudinary.com/practicaldev/image/fetch/s--Qak-G7QN--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/50687/03827052-2382-44b8-adbb-2315f8d649ee.png"}}]'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept, Authorization, Token
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '1728000'
+      Age:
+      - '0'
+      Cache-Control:
+      - public, no-cache
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 31 Mar 2019 13:16:38 GMT
+      Server:
+      - Cowboy
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 26909971-94a4-4e29-b732-215afbad1bf1
+      X-Runtime:
+      - '0.061793'
+      X-Served-By:
+      - cache-den19643-DEN, cache-mxp19850-MXP
+      X-Timer:
+      - S1554038199.612394,VS0,VE264
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '5208'
+    status:
+      code: 200
+      message: OK
+version: 1

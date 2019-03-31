@@ -42,6 +42,18 @@ def articles_by_organization(organization_username, *, page=1):
     return articles_by_username(organization_username)
 
 
+def articles_fresh():
+    """Retrieves fresh articles."""
+
+    return _get_articles(state="fresh")
+
+
+def articles_rising():
+    """Retrieves rising articles."""
+
+    return _get_articles(state="rising")
+
+
 def _get_articles(**params):
     response = requests.get(urljoin(BASE_URL, "articles"), params=params)
     response.raise_for_status()
