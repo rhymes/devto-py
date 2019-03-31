@@ -36,6 +36,12 @@ def articles_by_username(username, *, page=1):
         raise exc
 
 
+def articles_by_organization(organization_username, *, page=1):
+    """Retrieves articles by organization."""
+
+    return articles_by_username(organization_username)
+
+
 def _get_articles(**params):
     response = requests.get(urljoin(BASE_URL, "articles"), params=params)
     response.raise_for_status()

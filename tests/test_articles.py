@@ -1,6 +1,11 @@
 # coding: utf-8
 
-from devto import articles, articles_by_tag, articles_by_username
+from devto import (
+    articles,
+    articles_by_tag,
+    articles_by_username,
+    articles_by_organization,
+)
 
 
 def test_articles(vcr):
@@ -87,3 +92,15 @@ def test_articles_by_username_second_page(vcr):
 def test_articles_by_username_unknown_username(vcr):
     with vcr.use_cassette("articles_get_by_username_unknown_username"):
         assert not articles_by_username("fo1obarabo1of")
+
+
+def test_articles_by_username_works_with_organization_too(vcr):
+    with vcr.use_cassette("articles_get_by_username_organization"):
+        for article in articles_by_username("azure"):
+            assert article["organization"]["username"] == "azure"
+
+
+def test_articles_by_organization(vcr):
+    with vcr.use_cassette("articles_get_by_username_organization"):
+        for article in articles_by_organization("azure"):
+            assert article["organization"]["username"] == "azure"
