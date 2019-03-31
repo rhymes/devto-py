@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.21.0
+    method: GET
+    uri: https://dev.to/api/articles/9999999999999999999999
+  response:
+    body:
+      string: '{"status":404,"error":"Not Found"}'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Sun, 31 Mar 2019 15:27:57 GMT
+      Server:
+      - Cowboy
+      Vary:
+      - X-Loggedin, Accept-Encoding
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Request-Id:
+      - dce751fb-c11e-4b14-99f5-e5e071b7bbd9
+      X-Runtime:
+      - '0.023913'
+      X-Served-By:
+      - cache-den19627-DEN, cache-mxp19838-MXP
+      X-Timer:
+      - S1554046078.583014,VS0,VE367
+      content-length:
+      - '34'
+    status:
+      code: 404
+      message: Not Found
+version: 1

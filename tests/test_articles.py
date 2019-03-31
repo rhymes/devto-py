@@ -1,5 +1,7 @@
 # coding: utf-8
 
+import pytest
+
 from devto import (
     articles,
     articles_by_tag,
@@ -7,7 +9,9 @@ from devto import (
     articles_by_organization,
     articles_fresh,
     articles_rising,
+    article,
 )
+from devto.exceptions import NotFound
 
 
 def test_articles(vcr):
@@ -109,10 +113,20 @@ def test_articles_by_organization(vcr):
 
 
 def test_articles_fresh(vcr):
-    with vcr.use_cassette("articles_fresh"):
+    with vcr.use_cassette("articles_get_fresh"):
         assert articles_fresh()
 
 
 def test_articles_rising(vcr):
-    with vcr.use_cassette("articles_rising"):
+    with vcr.use_cassette("articles_get_rising"):
         assert articles_rising()
+
+
+def test_article(vcr):
+    with vcr.use_cassette("article_get_id"):
+        assert article(10)
+
+
+def test_article_unknown_id(vcr):
+    with vcr.use_cassette("article_get_id_unknown"), pytest.raises(NotFound):
+        assert article(9999999999999999999999)

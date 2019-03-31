@@ -9,4 +9,5 @@ from .articles import (
     articles_by_organization,
     articles_fresh,
     articles_rising,
+    article,
 )

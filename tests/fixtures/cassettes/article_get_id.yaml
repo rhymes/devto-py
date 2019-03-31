@@ -1,0 +1,161 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.21.0
+    method: GET
+    uri: https://dev.to/api/articles/10
+  response:
+    body:
+      string: "{\"type_of\":\"article\",\"id\":10,\"title\":\"Do Not Let JavaScript
+        Fatigue Become A Buzzword\",\"description\":\"\\n\\nIf you write JavaScript
+        for the web or have\_followed open source over the past ...\",\"cover_image\":\"https://res.cloudinary.com/practicaldev/image/fetch/s--J5m-ukZv--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/http://i.imgur.com/m0Ha8Lt.png\",\"published_at\":\"2016-01-18T19:07:01.000Z\",\"readable_publish_date\":\"Jan
+        18 '16\",\"social_image\":\"https://res.cloudinary.com/practicaldev/image/fetch/s--M48B0KjH--/c_imagga_scale,f_auto,fl_progressive,h_500,q_auto,w_1000/http://i.imgur.com/m0Ha8Lt.png\",\"tag_list\":\"\",\"slug\":\"do-not-let-javascript-fatigue-become-a-buzzword\",\"path\":\"/ben/do-not-let-javascript-fatigue-become-a-buzzword\",\"url\":\"https://dev.to/ben/do-not-let-javascript-fatigue-become-a-buzzword\",\"canonical_url\":\"https://dev.to/ben/do-not-let-javascript-fatigue-become-a-buzzword\",\"comments_count\":1,\"positive_reactions_count\":16,\"body_html\":\"\\u003c!DOCTYPE
+        html PUBLIC \\\"-//W3C//DTD HTML 4.0 Transitional//EN\\\" \\\"http://www.w3.org/TR/REC-html40/loose.dtd\\\"\\u003e\\n\\u003chtml\\u003e\\u003cbody\\u003e\\n\\u003cp\\u003eIf
+        you write JavaScript for the web or have\_followed open source over the past
+        few weeks, you have probably heard the phrase \u201CJavaScript fatigue.\u201D
+        Despite the excitement\_in JavaScript, this phenomenon is real. The phrase\_refers\_the
+        notion that\_the current popular\_JavaScript frameworks, namely \\u003ca href=\\\"https://facebook.github.io/react/\\\"\\u003eReactJs\\u003c/a\\u003e,
+        require painstaking setup around the tooling just to get a basic \\\"Hello
+        World\\\" application out the door, and the productivity gains are tough to
+        realize until a project has been well oiled and managed. \\u003ca href=\\\"https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.mhkrt7gvc\\\"\\u003eEric
+        Clemmons summed up JavaScript Fatigue\\u003c/a\\u003e well in a recent blog
+        post and provided a concise summary of the community\u2019s central frustration.\\u003c/p\\u003e\\n\\n\\u003cblockquote\\u003e\\n\\u003cp\\u003eUltimately,
+        the problem is that by choosing React (and inherently JSX), you\u2019ve unwittingly
+        opted into a confusing nest of build tools, boilerplate, linters, \\u0026amp;
+        time-sinks to deal with before you ever get to create anything.\\u003c/p\\u003e\\n\\u003cp\\u003e-Eric
+        Clemmons\\u003c/p\\u003e\\n\\u003c/blockquote\\u003e\\n\\n\\u003ch2\\u003eRails
+        doesn\u2019t scale\\u003c/h2\\u003e\\n\\n\\u003cp\\u003e\u201CRails doesn\u2019t
+        scale\u201D is a thing people say, but means very little. It is a buzzword
+        with a popularity that seems to date back to the news that \\u003ca href=\\\"https://blog.twitter.com/2011/twitter-search-is-now-3x-faster\\\"\\u003eTwitter
+        was moving off of Rails\\u003c/a\\u003e as the central structure for its service
+        in 2011. People took the phrase and ran with it, sometimes to make a quick
+        explanation about a software choice, sometimes to sound smart, and sometimes
+        because it fit the context in which it was said. Ruby on Rails thoroughly
+        did not fit in with what Twitter was doing, for reasons that would seem obvious
+        to experienced developers. But experienced developers also tend to recognize
+        the strengths of the Ruby language and the benefits of the Rails framework.
+        Inexperienced developers and ignorant decision makers have used the buzzword
+        \u201CRails doesn\u2019t scale\u201D to reach for overly complicated systems
+        that extend the time to first product shipped by months or years for no reason
+        beyond the fear of the \u201Cscaling\u201D boogeyman.\\u003c/p\\u003e\\n\\n\\u003cp\\u003eSimilarly,
+        the phrase \u201CJavaScript fatigue\u201D is context-specific, timeframe-specific
+        and ultimately shorthand for the\_state of tooling at the time in which it
+        was popularized. It does not mean whatever \u201CJavaScript Fatigue\u201D
+        might be interpreted as by the second-hand observer now and in the future.
+        JavaScript Fatigue as a buzzword provides a lack of incentive for the greater
+        programming community to jump in and give some of these exciting new ideas
+        a try, but it\u2019s an exciting space to be in and worth exploring fearlessly.
+        Prohibitive buzzwords can stop developers in their tracks and provides flawed
+        heuristics for making technology decisions.\\u003c/p\\u003e\\n\\n\\u003ch2\\u003eThe
+        nature of open source software\\u003c/h2\\u003e\\n\\n\\u003cp\\u003eOpen source
+        software is built by humans with varying styles, goals, cultures and spoken
+        languages. The wisdom (and effort) of the crowds approach to software development
+        sometimes seems out of place in a world\_where lack of reasonable consensus
+        is about as guaranteed as death and taxes. But despite some \\u003ca href=\\\"http://anandmanisankar.com/posts/nodejs-iojs-why-the-fork/\\\"\\u003ehardships
+        along the way\\u003c/a\\u003e, great things have come out of it. Open source
+        software powers thousands of companies across the world of varying sizes and
+        provides the glue for much of the usable web as we know it. The side effects
+        of open-source software tend to be exposed and managed over time.\\u003c/p\\u003e\\n\\n\\u003cp\\u003eBecause
+        of this distributed nature of open source software development, public debates
+        are a critical factor in the health and stability of any project. The health
+        and stability of popular projects is ultimately critical to the long term
+        productivity of \\u003ca href=\\\"../../\\\"\\u003esoftware developers\\u003c/a\\u003e.
+        And because stable, economical software development is so critical to global
+        economic strength, it cannot be understated how important these open debates
+        are. But we should recognize when debates are oversimplified and boiled down
+        into chunks that are too easily digested when not properly chewed.\\u003c/p\\u003e\\n\\n\\u003ch2\\u003eSo
+        what do we do?\\u003c/h2\\u003e\\n\\n\\u003cp\\u003eJavaScript fatigue is
+        ripe to become one of the top tech buzzwords of 2016. It seems describe more
+        than it does. At the moment, the community has used it to describe tooling
+        issues facing the JavaScript community at the time it was coined, but as the
+        phrase diffuses into buzzword-land it is easy for the original context to
+        be lost and for people to infer their own meaning to it.\\u003c/p\\u003e\\n\\n\\u003cp\\u003eUse
+        up-and-coming buzzwords like \u201CJavaScript fatigue\u201D with caution.
+        Provide context and elaboration whenever you can. Do not use it to provide
+        general criticism towards JavaScript, even if you have become a hardcore \\u003ca
+        href=\\\"http://elm-lang.org/\\\"\\u003eElm\\u003c/a\\u003e evangelist or
+        excited about some other supposed succeeder. JavaScript is a language and
+        an ecosystem every programmer has had some experience in and has its strengths
+        and weaknesses, but it is an area of great excitement and growth and deserves
+        to be judged on its merits rather than on buzzwords.\\u003c/p\\u003e\\n\\n\\u003cp\\u003eJavaScript
+        is a real thing, but did you also know that the phrase \u201Cdisrupt\u201D
+        also refers to a \\u003ca href=\\\"http://www.claytonchristensen.com/key-concepts/\\\"\\u003especifically
+        observed phenomenon\\u003c/a\\u003e originally brought forth by Clayton Christensen?
+        Because it was turned into a tech buzzword used ad-nauseum to seemingly any
+        business concept, it lost all meaning despite Christensen\u2019s \\u003ca
+        href=\\\"http://a16z.com/2015/10/28/what-disruption-theory-is-and-isnt/\\\"\\u003eattempts
+        to clarify\\u003c/a\\u003e. Let's learn from some history and try to avoid
+        letting\_\u201CJavaScript fatigue\u201D and future buzz-worthy phrases in
+        tech go the way of \u201CRails doesn\u2019t scale\u201D and \u201Cdisruption\u201D.\\u003c/p\\u003e\\n\\n\\u003c/body\\u003e\\u003c/html\\u003e\\n\",\"ltag_style\":[],\"ltag_script\":[],\"user\":{\"name\":\"Ben
+        Halpern\",\"username\":\"ben\",\"twitter_username\":\"bendhalpern\",\"github_username\":\"benhalpern\",\"website_url\":\"http://benhalpern.com\",\"profile_image\":\"https://res.cloudinary.com/practicaldev/image/fetch/s--Y1sq1tFG--/c_fill,f_auto,fl_progressive,h_640,q_auto,w_640/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/1/f451a206-11c8-4e3d-8936-143d0a7e65bb.png\",\"profile_image_90\":\"https://res.cloudinary.com/practicaldev/image/fetch/s--DcW51A6v--/c_fill,f_auto,fl_progressive,h_90,q_auto,w_90/https://thepracticaldev.s3.amazonaws.com/uploads/user/profile_image/1/f451a206-11c8-4e3d-8936-143d0a7e65bb.png\"}}"
+    headers:
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      - bytes
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept, Authorization, Token
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '1728000'
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sun, 31 Mar 2019 15:27:58 GMT
+      Etag:
+      - W/"623e509dadf969f9d6fec39a23d566f4"
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 23a8ee22-d171-4a29-b226-a364524fcfa4
+      X-Runtime:
+      - '0.096424'
+      X-Served-By:
+      - cache-den19621-DEN, cache-mxp19821-MXP
+      X-Timer:
+      - S1554046078.490210,VS0,VE288
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '8121'
+    status:
+      code: 200
+      message: OK
+version: 1

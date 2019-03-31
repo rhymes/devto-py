@@ -9,6 +9,8 @@ from urllib.parse import urljoin
 
 import requests
 
+from . import exceptions
+
 BASE_URL = "https://dev.to/api/"
 
 
@@ -54,7 +56,24 @@ def articles_rising():
     return _get_articles(state="rising")
 
 
+def article(article_id):
+    """Retrieves a single article by ID."""
+
+    try:
+        return _request("articles/%s" % article_id)
+    except requests.exceptions.HTTPError as exc:
+        if exc.response.status_code == 404:
+            raise exceptions.NotFound(str(exc)) from exc
+        raise exc
+
+
 def _get_articles(**params):
     response = requests.get(urljoin(BASE_URL, "articles"), params=params)
+    response.raise_for_status()
+    return response.json()
+
+
+def _request(path, **params):
+    response = requests.get(urljoin(BASE_URL, path), params=params)
     response.raise_for_status()
     return response.json()
