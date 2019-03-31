@@ -10,6 +10,7 @@ from urllib.parse import urljoin
 import requests
 
 from . import exceptions
+from .__version__ import __version__
 
 BASE_URL = "https://dev.to/api/"
 
@@ -72,6 +73,7 @@ def _get_articles(**params):
 
 
 def _get(path, **params):
-    response = requests.get(urljoin(BASE_URL, path), params=params)
+    headers = {"user-agent": "devto-py/%s" % __version__}
+    response = requests.get(urljoin(BASE_URL, path), params=params, headers=headers)
     response.raise_for_status()
     return response.json()
