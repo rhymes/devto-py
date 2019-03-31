@@ -30,13 +30,7 @@ def articles_by_tag(tag, *, top=None, page=1):
 def articles_by_username(username, *, page=1):
     """Retrieves articles by username."""
 
-    try:
-        return _get_articles(username=username, page=page)
-    except requests.exceptions.HTTPError as exc:
-        # unknown username results in a 500 error
-        if exc.response.status_code == requests.codes.internal_server_error:
-            return []
-        raise exc
+    return _get_articles(username=username, page=page)
 
 
 def articles_by_organization(organization_username, *, page=1):

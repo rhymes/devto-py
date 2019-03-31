@@ -8,48 +8,63 @@ interactions:
       - gzip, deflate
       Connection:
       - keep-alive
-      User-Agent:
-      - python-requests/2.21.0
+      user-agent:
+      - devto-py/0.1
     method: GET
-    uri: https://dev.to/api/articles?page=1&username=fo1obarabo1of
+    uri: https://dev.to/api/articles?username=fo1obarabo1of&page=1
   response:
     body:
-      string: '{"status":500,"error":"Internal Server Error"}'
+      string: '[]'
     headers:
       Accept-Ranges:
       - bytes
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept, Authorization, Token
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
       Access-Control-Allow-Origin:
       - '*'
+      Access-Control-Max-Age:
+      - '1728000'
+      Age:
+      - '0'
+      Cache-Control:
+      - public, no-cache
       Connection:
       - keep-alive
-      Content-Length:
-      - '46'
       Content-Type:
-      - application/json; charset=UTF-8
+      - application/json; charset=utf-8
       Date:
-      - Sun, 31 Mar 2019 12:10:05 GMT
-      Fastly-Restarts:
-      - '1'
+      - Sun, 31 Mar 2019 15:51:20 GMT
       Server:
       - Cowboy
       Vary:
-      - X-Loggedin
+      - Accept-Encoding, X-Loggedin
       Via:
       - 1.1 vegur
       - 1.1 varnish
+      - 1.1 varnish
       X-Cache:
-      - MISS
+      - MISS, MISS
       X-Cache-Hits:
-      - '0'
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
       X-Request-Id:
-      - eaf31dae-8e93-4aee-9b99-e454d6803383
+      - b181b1b3-f3d9-4eda-a674-1e3203e988cb
       X-Runtime:
-      - '0.054470'
+      - '0.025239'
       X-Served-By:
-      - cache-mxp19824-MXP
+      - cache-den19622-DEN, cache-mxp19834-MXP
       X-Timer:
-      - S1554034205.730368,VS0,VE729
+      - S1554047480.262345,VS0,VE358
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '2'
     status:
-      code: 500
-      message: Internal Server Error
+      code: 200
+      message: OK
 version: 1
