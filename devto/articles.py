@@ -34,7 +34,7 @@ def articles_by_username(username, *, page=1):
         return _get_articles(username=username, page=page)
     except requests.exceptions.HTTPError as exc:
         # unknown username results in a 500 error
-        if exc.response.status_code == 500:
+        if exc.response.status_code == requests.codes.internal_server_error:
             return []
         raise exc
 
@@ -63,7 +63,7 @@ def article(article_id):
     try:
         return _get("articles/%s" % article_id)
     except requests.exceptions.HTTPError as exc:
-        if exc.response.status_code == 404:
+        if exc.response.status_code == requests.codes.not_found:
             raise exceptions.NotFound(str(exc)) from exc
         raise exc
 
