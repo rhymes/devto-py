@@ -1,8 +1,8 @@
 # coding: utf-8
 
-"""Dev.to API client
+"""Dev.to API client for Articles
 
-See <https://github.com/thepracticaldev/dev.to/tree/master/app/controllers/api/v0>
+See <https://github.com/thepracticaldev/dev.to/blob/master/app/controllers/api/v0/articles_controller.rb>
 """
 
 from urllib.parse import urljoin
