@@ -24,6 +24,12 @@ def articles_by_tag(tag, *, top=None, page=1):
     return _get_articles(tag=tag, top=top, page=page)
 
 
+def articles_by_username(username, *, page=1):
+    """Retrieves articles by username."""
+
+    return _get_articles(username=username, page=page)
+
+
 def _get_articles(**params):
     response = requests.get(urljoin(BASE_URL, "articles"), params=params)
     return response.json()

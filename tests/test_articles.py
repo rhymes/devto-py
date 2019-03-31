@@ -1,6 +1,6 @@
 # coding: utf-8
 
-from devto import articles, articles_by_tag
+from devto import articles, articles_by_tag, articles_by_username
 
 
 def test_articles(vcr):
@@ -69,3 +69,9 @@ def test_articles_by_tag_nonexistent_page(vcr):
 def test_articles_by_tag_top(vcr):
     with vcr.use_cassette("articles_get_by_tag_top"):
         assert articles_by_tag("python", top=5)
+
+
+def test_articles_by_username(vcr):
+    with vcr.use_cassette("articles_get_by_username"):
+        for article in articles_by_username("ben"):
+            assert article["user"]["username"] == "ben"
