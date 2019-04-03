@@ -1,0 +1,236 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      user-agent:
+      - devto-py/0.1
+    method: GET
+    uri: https://dev.to/api/podcast_episodes?page=1
+  response:
+    body:
+      string: "[{\"type_of\":\"podcast_episodes\",\"id\":9111,\"path\":\"/rubyrogues/mrs-084-justin-searls\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png\",\"title\":\"MRS
+        084: Justin Searls\",\"podcast\":{\"title\":\"Ruby Rogues\",\"slug\":\"rubyrogues\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9109,\"path\":\"/sedaily/operational-analytics-with-jad-naous\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\",\"title\":\"Operational
+        Analytics with Jad Naous\",\"podcast\":{\"title\":\"Software Engineering Daily\",\"slug\":\"sedaily\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9110,\"path\":\"/adventuresinangular/mas-076-chaz-gatian\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/13/Qn39nZl.png\",\"title\":\"MAS
+        076:  Chaz Gatian\",\"podcast\":{\"title\":\"Adventures in Angular\",\"slug\":\"adventuresinangular\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/13/Qn39nZl.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9108,\"path\":\"/developertea/feedback-shouldn-t-be-scary\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\",\"title\":\"Feedback
+        Shouldn't Be Scary\",\"podcast\":{\"title\":\"Developer Tea\",\"slug\":\"developertea\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9102,\"path\":\"/sedaily/blitzscaling-with-chris-yeh\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\",\"title\":\"Blitzscaling
+        with Chris Yeh\",\"podcast\":{\"title\":\"Software Engineering Daily\",\"slug\":\"sedaily\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9103,\"path\":\"/adventuresinangular/aia-233-getting-serious-with-schematics-with-tomas-trajan\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/13/Qn39nZl.png\",\"title\":\"AiA
+        233: Getting Serious with Schematics with Tomas Trajan\",\"podcast\":{\"title\":\"Adventures
+        in Angular\",\"slug\":\"adventuresinangular\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/13/Qn39nZl.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9107,\"path\":\"/buildyoursaas/when-should-bootstrappers-get-paid\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/55/f9e4a5fe-3b68-4241-bee9-63834e38fa72.jpeg\",\"title\":\"When
+        should bootstrappers get paid?\",\"podcast\":{\"title\":\"Build Your SaaS\",\"slug\":\"buildyoursaas\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/55/f9e4a5fe-3b68-4241-bee9-63834e38fa72.jpeg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9104,\"path\":\"/jsjabber/jsj-358-pickle-js-tooling-and-developer-happiness-with-anatoliy-zaslavskiy\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/14/gNtjA5E.png\",\"title\":\"JSJ
+        358: Pickle.js, Tooling, and Developer Happiness with Anatoliy Zaslavskiy\",\"podcast\":{\"title\":\"JavaScript
+        Jabber\",\"slug\":\"jsjabber\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/14/gNtjA5E.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9106,\"path\":\"/talkpython/205-beginners-and-experts-panel\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/21/art.png\",\"title\":\"#205
+        Beginners and Experts Panel\",\"podcast\":{\"title\":\"Talk Python\",\"slug\":\"talkpython\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/21/art.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9101,\"path\":\"/rabbithole/103-art-of-programming-with-sumana-harihareswara\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/50/e43e7627-d8d9-4524-af1b-b2361ab5b0dc.jpg\",\"title\":\"103.
+        Art of Programming with Sumana Harihareswara\",\"podcast\":{\"title\":\"The
+        Rabbit Hole\",\"slug\":\"rabbithole\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/50/e43e7627-d8d9-4524-af1b-b2361ab5b0dc.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9105,\"path\":\"/rubyrogues/rr-406-how-hard-is-ruby-on-rails-to-learn\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png\",\"title\":\"RR
+        406: How Hard is Ruby on Rails to Learn?\",\"podcast\":{\"title\":\"Ruby Rogues\",\"slug\":\"rubyrogues\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9100,\"path\":\"/techwomenshow/corporate-venture-capital-with-vivian-li\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/42/1e4733b5-319c-4571-a157-8365b6e8ed1a.jpg\",\"title\":\"Corporate
+        Venture Capital with Vivian Li\",\"podcast\":{\"title\":\"The Women in Tech
+        Show\",\"slug\":\"techwomenshow\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/42/1e4733b5-319c-4571-a157-8365b6e8ed1a.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9097,\"path\":\"/syntax/hasty-treat-bike-shedding\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/51/fde96616-3607-4656-8ea2-a1756d0aaff1.png\",\"title\":\"Hasty
+        Treat - Bike Shedding\",\"podcast\":{\"title\":\"Syntax - Tasty Web Development
+        Treats\",\"slug\":\"syntax\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/51/fde96616-3607-4656-8ea2-a1756d0aaff1.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9093,\"path\":\"/sedaily/uber-infrastructure-with-prashant-varanasi-and-akshay-shah\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\",\"title\":\"Uber
+        Infrastructure with Prashant Varanasi and Akshay Shah\",\"podcast\":{\"title\":\"Software
+        Engineering Daily\",\"slug\":\"sedaily\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9091,\"path\":\"/codingblocks/the-second-date-is-always-easier\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/20/art.jpeg\",\"title\":\"The
+        Second Date is Always Easier\",\"podcast\":{\"title\":\"CodingBlocks\",\"slug\":\"codingblocks\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/20/art.jpeg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9098,\"path\":\"/6figuredev/episode-085-noda-time-with-jon-skeet\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/59/6a1a0ab6-315d-4d54-aec7-8ff86458b38b.png\",\"title\":\"Episode
+        085 \u2013 Noda Time with Jon Skeet\",\"podcast\":{\"title\":\"The 6 Figure
+        Developer Podcast\",\"slug\":\"6figuredev\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/59/6a1a0ab6-315d-4d54-aec7-8ff86458b38b.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9090,\"path\":\"/podcast__init__/building-scalable-ecommerce-sites-on-saleor\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/17/EtrZW1t.png\",\"title\":\"Building
+        Scalable Ecommerce Sites On Saleor\",\"podcast\":{\"title\":\"Podcast.__init__\",\"slug\":\"podcast__init__\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/17/EtrZW1t.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9094,\"path\":\"/developertea/mental-accounting\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\",\"title\":\"Mental
+        Accounting \",\"podcast\":{\"title\":\"Developer Tea\",\"slug\":\"developertea\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9092,\"path\":\"/developeronfire/episode-417-jeremie-chassaing-caring-context-and-iteration\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/22/devonfireprofile.png\",\"title\":\"Episode
+        417 | J\xE9r\xE9mie Chassaing - Caring, Context, and Iteration\",\"podcast\":{\"title\":\"Developer
+        on Fire\",\"slug\":\"developeronfire\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/22/devonfireprofile.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9096,\"path\":\"/softskillseng/episode-151-where-are-all-the-old-developers-and-do-i-not-ask-enough-questions\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/37/sse-logo-3.png\",\"title\":\"Episode
+        151: Where are all the old developers and Do I not ask enough questions?\",\"podcast\":{\"title\":\"Soft
+        Skills Engineering\",\"slug\":\"softskillseng\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/37/sse-logo-3.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9095,\"path\":\"/cynicaldeveloper/episode-111-distributed-monoliths\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/49/b8ec4b14-b5af-403d-b846-73fb461b0c5b.png\",\"title\":\"Episode
+        111 - Distributed Monoliths\",\"podcast\":{\"title\":\"The Cynical Developer\",\"slug\":\"cynicaldeveloper\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/49/b8ec4b14-b5af-403d-b846-73fb461b0c5b.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9099,\"path\":\"/shoptalkshow/354-guillermo-rauch-and-zeit\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/8/aA4Hrak.png\",\"title\":\"354:
+        Guillermo Rauch and Zeit\",\"podcast\":{\"title\":\"Shop Talk Show\",\"slug\":\"shoptalkshow\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/8/aA4Hrak.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9087,\"path\":\"/jsparty/bundle-because-you-want-to-not-because-you-need-to\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/46/ce547895-87b7-4443-a752-3ea70febb311.svg\",\"title\":\"Bundle
+        because you want to, not because you need to\",\"podcast\":{\"title\":\"JS
+        Party\",\"slug\":\"jsparty\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/46/ce547895-87b7-4443-a752-3ea70febb311.svg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9085,\"path\":\"/dotnetcorepodcast/microservices-with-christian-horsdal\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/58/c6bc9a85-2b7e-4b2b-9ac0-921bf4a37f7e.jpg\",\"title\":\"Microservices
+        with Christian Horsdal\",\"podcast\":{\"title\":\"The .NET Core Podcast\",\"slug\":\"dotnetcorepodcast\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/58/c6bc9a85-2b7e-4b2b-9ac0-921bf4a37f7e.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9083,\"path\":\"/developertea/headroom\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\",\"title\":\"Headroom\",\"podcast\":{\"title\":\"Developer
+        Tea\",\"slug\":\"developertea\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9084,\"path\":\"/changelog/why-smart-engineers-write-bad-code\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/4/3cxeLxCy.jpg\",\"title\":\"Why
+        smart engineers write bad code\",\"podcast\":{\"title\":\"The Changelog\",\"slug\":\"changelog\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/4/3cxeLxCy.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9082,\"path\":\"/bikeshed/192-i-don-t-want-to-think-that-hard\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/6/small_1433513863-artwork.jpg\",\"title\":\"192:
+        I Don't Want to Think That Hard\",\"podcast\":{\"title\":\"The Bike Shed\",\"slug\":\"bikeshed\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/6/small_1433513863-artwork.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9086,\"path\":\"/sedaily/workload-scheduling-with-brian-grant\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\",\"title\":\"Workload
+        Scheduling with Brian Grant\",\"podcast\":{\"title\":\"Software Engineering
+        Daily\",\"slug\":\"sedaily\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9088,\"path\":\"/freelancers/tfs-327-making-sure-you-re-paid\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/11/YWeA1BC.png\",\"title\":\"TFS
+        327:  Making Sure You're Paid\",\"podcast\":{\"title\":\"Freelancers' Show\",\"slug\":\"freelancers\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/11/YWeA1BC.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9080,\"path\":\"/techwomenshow/infrastructure-as-code-with-kerry-munz\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/42/1e4733b5-319c-4571-a157-8365b6e8ed1a.jpg\",\"title\":\"Infrastructure
+        as Code with Kerry Munz\",\"podcast\":{\"title\":\"The Women in Tech Show\",\"slug\":\"techwomenshow\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/42/1e4733b5-319c-4571-a157-8365b6e8ed1a.jpg\"}}]"
+    headers:
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '0'
+      - '0'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 03 Apr 2019 11:46:09 GMT
+      Etag:
+      - W/"d4a115ff33942b7b0a87458de7b3679d"
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - a2b7f97c-800c-4c7c-9bae-c5b97a6a9854
+      X-Runtime:
+      - '0.009429'
+      X-Served-By:
+      - cache-den19632-DEN, cache-ams21029-AMS
+      X-Timer:
+      - S1554291969.118920,VS0,VE190
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '12626'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      user-agent:
+      - devto-py/0.1
+    method: GET
+    uri: https://dev.to/api/podcast_episodes?page=2
+  response:
+    body:
+      string: "[{\"type_of\":\"podcast_episodes\",\"id\":9088,\"path\":\"/freelancers/tfs-327-making-sure-you-re-paid\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/11/YWeA1BC.png\",\"title\":\"TFS
+        327:  Making Sure You're Paid\",\"podcast\":{\"title\":\"Freelancers' Show\",\"slug\":\"freelancers\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/11/YWeA1BC.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9077,\"path\":\"/iphreaks/ips-258-learning-objective-c-as-a-swift-developer-with-abbey-jackson\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/12/Vw62Cup.png\",\"title\":\"iPS
+        258: Learning Objective-C as a Swift Developer with Abbey Jackson\",\"podcast\":{\"title\":\"iPhreaks\",\"slug\":\"iphreaks\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/12/Vw62Cup.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9081,\"path\":\"/enterpriseready/ep-6-enterprise-innovation-with-andrew-peterson-of-signal-sciences\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/60/059ae503-54b5-4a4f-8676-225a7affd9eb.jpg\",\"title\":\"Ep.
+        #6, Enterprise Innovation with Andrew Peterson of Signal Sciences\",\"podcast\":{\"title\":\"EnterpriseReady\",\"slug\":\"enterpriseready\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/60/059ae503-54b5-4a4f-8676-225a7affd9eb.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9076,\"path\":\"/sedaily/peloton-uber-s-cluster-scheduler-with-min-cai-and-mayank-bansal\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\",\"title\":\"Peloton:
+        Uber\u2019s Cluster Scheduler with Min Cai and Mayank Bansal\",\"podcast\":{\"title\":\"Software
+        Engineering Daily\",\"slug\":\"sedaily\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9080,\"path\":\"/techwomenshow/infrastructure-as-code-with-kerry-munz\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/42/1e4733b5-319c-4571-a157-8365b6e8ed1a.jpg\",\"title\":\"Infrastructure
+        as Code with Kerry Munz\",\"podcast\":{\"title\":\"The Women in Tech Show\",\"slug\":\"techwomenshow\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/42/1e4733b5-319c-4571-a157-8365b6e8ed1a.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9078,\"path\":\"/jsjabber/mjs-101-chris-ferdinandi\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/14/gNtjA5E.png\",\"title\":\"MJS
+        101: Chris Ferdinandi\",\"podcast\":{\"title\":\"JavaScript Jabber\",\"slug\":\"jsjabber\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/14/gNtjA5E.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9072,\"path\":\"/jsjabber/mjs-100-joe-eames\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/14/gNtjA5E.png\",\"title\":\"MJS
+        100: Joe Eames\",\"podcast\":{\"title\":\"JavaScript Jabber\",\"slug\":\"jsjabber\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/14/gNtjA5E.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9075,\"path\":\"/basecspodcast/s5-e7-a-heap-of-heaps\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/53/2e6076d9-e9b5-46d5-8698-7ab12085684d.png\",\"title\":\"S5:E7
+        - \\\"A heap of heaps\\\"\",\"podcast\":{\"title\":\"Base.cs Podcast\",\"slug\":\"basecspodcast\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/53/2e6076d9-e9b5-46d5-8698-7ab12085684d.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9073,\"path\":\"/rubyrogues/mrs-083-stefan-wintermeyer\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png\",\"title\":\"MRS
+        083: Stefan Wintermeyer\",\"podcast\":{\"title\":\"Ruby Rogues\",\"slug\":\"rubyrogues\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9074,\"path\":\"/syntax/the-vuejs-show-scott-teaches-wes\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/51/fde96616-3607-4656-8ea2-a1756d0aaff1.png\",\"title\":\"The
+        VueJS Show (Scott teaches Wes)\",\"podcast\":{\"title\":\"Syntax - Tasty Web
+        Development Treats\",\"slug\":\"syntax\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/51/fde96616-3607-4656-8ea2-a1756d0aaff1.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9071,\"path\":\"/adventuresinangular/mas-075-ward-bell\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/13/Qn39nZl.png\",\"title\":\"MAS
+        075: Ward Bell\",\"podcast\":{\"title\":\"Adventures in Angular\",\"slug\":\"adventuresinangular\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/13/Qn39nZl.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9069,\"path\":\"/sedaily/scaling-log-management-with-renaud-boutet\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\",\"title\":\"Scaling
+        Log Management with Renaud Boutet\",\"podcast\":{\"title\":\"Software Engineering
+        Daily\",\"slug\":\"sedaily\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9070,\"path\":\"/developertea/seek-to-understand-rather-than-persuade-others-perspectives\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\",\"title\":\"Seek
+        to Understand Rather than Persuade Others Perspectives\",\"podcast\":{\"title\":\"Developer
+        Tea\",\"slug\":\"developertea\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9066,\"path\":\"/jsjabber/jsj-357-eventstream--package-vulnerabilities-with-richard-feldman-and-hillel-wayne\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/14/gNtjA5E.png\",\"title\":\"JSJ
+        357: Event-Stream \\u0026 Package Vulnerabilities with Richard Feldman and
+        Hillel Wayne\",\"podcast\":{\"title\":\"JavaScript Jabber\",\"slug\":\"jsjabber\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/14/gNtjA5E.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9065,\"path\":\"/adventuresinangular/aia-232--the-seinfeld-episode\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/13/Qn39nZl.png\",\"title\":\"AiA
+        232:  The Seinfeld Episode\",\"podcast\":{\"title\":\"Adventures in Angular\",\"slug\":\"adventuresinangular\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/13/Qn39nZl.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9067,\"path\":\"/rubyrogues/rr-405---rubymotion-with-lori-olson\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png\",\"title\":\"RR
+        405:   Rubymotion with Lori Olson\",\"podcast\":{\"title\":\"Ruby Rogues\",\"slug\":\"rubyrogues\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9062,\"path\":\"/rabbithole/102-digging-into-javascript-w-jonathan-wexler\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/50/e43e7627-d8d9-4524-af1b-b2361ab5b0dc.jpg\",\"title\":\"102.
+        Digging Into JavaScript w/ Jonathan Wexler\",\"podcast\":{\"title\":\"The
+        Rabbit Hole\",\"slug\":\"rabbithole\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/50/e43e7627-d8d9-4524-af1b-b2361ab5b0dc.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9068,\"path\":\"/buildyoursaas/worst-day-ever\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/55/f9e4a5fe-3b68-4241-bee9-63834e38fa72.jpeg\",\"title\":\"Worst
+        day ever\",\"podcast\":{\"title\":\"Build Your SaaS\",\"slug\":\"buildyoursaas\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/55/f9e4a5fe-3b68-4241-bee9-63834e38fa72.jpeg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9063,\"path\":\"/sedaily/security-businesses-with-steve-herrod\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\",\"title\":\"Security
+        Businesses with Steve Herrod\",\"podcast\":{\"title\":\"Software Engineering
+        Daily\",\"slug\":\"sedaily\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9064,\"path\":\"/developertea/bonus-episode--soft-skills-engineering-meets-developer-tea\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\",\"title\":\"Bonus
+        Episode - Soft Skills Engineering Meets Developer Tea\",\"podcast\":{\"title\":\"Developer
+        Tea\",\"slug\":\"developertea\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/18/small_1471485029-artwork.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9055,\"path\":\"/sedaily/codesandbox-online-code-editor-with-bas-buursma-and-ives-van-hoorne\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\",\"title\":\"CodeSandbox:
+        Online Code Editor with Bas Buursma and Ives van Hoorne\",\"podcast\":{\"title\":\"Software
+        Engineering Daily\",\"slug\":\"sedaily\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/1/lM7fSW24.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9060,\"path\":\"/podcast__init__/a-quick-python-checkin-with-naomi-ceder\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/17/EtrZW1t.png\",\"title\":\"A
+        Quick Python Check-in With Naomi Ceder\",\"podcast\":{\"title\":\"Podcast.__init__\",\"slug\":\"podcast__init__\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/17/EtrZW1t.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9053,\"path\":\"/softskillseng/episode-150-how-to-fight-imposter-syndrome-as-a-technical-lead-and-getting-in-to-meetups\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/37/sse-logo-3.png\",\"title\":\"Episode
+        150: How to fight imposter syndrome as a technical lead and Getting in to
+        meetups\",\"podcast\":{\"title\":\"Soft Skills Engineering\",\"slug\":\"softskillseng\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/37/sse-logo-3.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9057,\"path\":\"/edaqa-and-stephane-podcast/20-low-carb-fireside\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/56/8c960338-f95e-44e6-b324-f04e93f44186.png\",\"title\":\"#20
+        Low Carb Fireside\",\"podcast\":{\"title\":\"Edaqa \\u0026 Stephane Podcast\",\"slug\":\"edaqa-and-stephane-podcast\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/56/8c960338-f95e-44e6-b324-f04e93f44186.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9058,\"path\":\"/6figuredev/episode-084--startup-weekend-brought-us-lunchpool\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/59/6a1a0ab6-315d-4d54-aec7-8ff86458b38b.png\",\"title\":\"Episode
+        084 \u2013 Startup Weekend brought us Lunchpool\",\"podcast\":{\"title\":\"The
+        6 Figure Developer Podcast\",\"slug\":\"6figuredev\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/59/6a1a0ab6-315d-4d54-aec7-8ff86458b38b.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9056,\"path\":\"/syntax/hasty-treat--why-use-a-frontend-framework-at-all\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/51/fde96616-3607-4656-8ea2-a1756d0aaff1.png\",\"title\":\"Hasty
+        Treat - Why Use a Frontend Framework at All?\",\"podcast\":{\"title\":\"Syntax
+        - Tasty Web Development Treats\",\"slug\":\"syntax\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/51/fde96616-3607-4656-8ea2-a1756d0aaff1.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9054,\"path\":\"/developeronfire/episode-416--spence-green--accessible-language\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/22/devonfireprofile.png\",\"title\":\"Episode
+        416 | Spence Green - Accessible Language\",\"podcast\":{\"title\":\"Developer
+        on Fire\",\"slug\":\"developeronfire\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/22/devonfireprofile.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9061,\"path\":\"/legacy-code-rocks/technical-leadership-with-marcus-blankenship\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/48/7f384a73-4527-4177-bc1a-dc93ca4dfe1f.jpg\",\"title\":\"Technical
+        Leadership with Marcus Blankenship\",\"podcast\":{\"title\":\"Legacy Code
+        Rocks!\",\"slug\":\"legacy-code-rocks\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/48/7f384a73-4527-4177-bc1a-dc93ca4dfe1f.jpg\"}},{\"type_of\":\"podcast_episodes\",\"id\":9059,\"path\":\"/shoptalkshow/353-typetura-with-scott-kellum\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/8/aA4Hrak.png\",\"title\":\"353:
+        Typetura with Scott Kellum\",\"podcast\":{\"title\":\"Shop Talk Show\",\"slug\":\"shoptalkshow\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/8/aA4Hrak.png\"}},{\"type_of\":\"podcast_episodes\",\"id\":9018,\"path\":\"/bikeshed/191-open-source-is-created-by-humans-devon-zuegel\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/6/small_1433513863-artwork.jpg\",\"title\":\"191:
+        Open Source is Created By Humans (Devon Zuegel)\",\"podcast\":{\"title\":\"The
+        Bike Shed\",\"slug\":\"bikeshed\",\"image_url\":\"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/6/small_1433513863-artwork.jpg\"}}]"
+    headers:
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      - bytes
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept, Authorization, Token
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '1728000'
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 03 Apr 2019 11:46:09 GMT
+      Etag:
+      - W/"8c9469728af50762afedd108cf22f31e"
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 3b34cc4d-de56-405c-acbc-aa92fb5f1bd8
+      X-Runtime:
+      - '0.169695'
+      X-Served-By:
+      - cache-den19641-DEN, cache-ams21036-AMS
+      X-Timer:
+      - S1554291970.596139,VS0,VE354
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '13026'
+    status:
+      code: 200
+      message: OK
+version: 1

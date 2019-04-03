@@ -1,0 +1,56 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      user-agent:
+      - devto-py/0.1
+    method: GET
+    uri: https://dev.to/api/podcast_episodes?page=1&username=fo1obarabo1of
+  response:
+    body:
+      string: '{"status":404,"error":"Not Found"}'
+    headers:
+      Accept-Ranges:
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '0'
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 03 Apr 2019 11:46:05 GMT
+      Server:
+      - Cowboy
+      Vary:
+      - X-Loggedin, Accept-Encoding
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Request-Id:
+      - 6caa2a35-7282-4117-9438-3df8ce137f44
+      X-Runtime:
+      - '0.021457'
+      X-Served-By:
+      - cache-den19645-DEN, cache-ams21047-AMS
+      X-Timer:
+      - S1554291965.459909,VS0,VE324
+      content-length:
+      - '34'
+    status:
+      code: 404
+      message: Not Found
+version: 1

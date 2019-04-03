@@ -1,0 +1,122 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      user-agent:
+      - devto-py/0.1
+    method: GET
+    uri: https://dev.to/api/podcast_episodes?page=1&username=rubyrogues
+  response:
+    body:
+      string: '[{"type_of":"podcast_episodes","id":9111,"path":"/rubyrogues/mrs-084-justin-searls","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        084: Justin Searls","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":9105,"path":"/rubyrogues/rr-406-how-hard-is-ruby-on-rails-to-learn","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        406: How Hard is Ruby on Rails to Learn?","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":9073,"path":"/rubyrogues/mrs-083-stefan-wintermeyer","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        083: Stefan Wintermeyer","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":9067,"path":"/rubyrogues/rr-405---rubymotion-with-lori-olson","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        405:   Rubymotion with Lori Olson","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":9004,"path":"/rubyrogues/mrs-082-sebastian-sogamoso","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        082: Sebastian Sogamoso","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8998,"path":"/rubyrogues/rr-404-ruby-bindings--extensions-with-ffi-with-sean-handley","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        404: Ruby Bindings \u0026 Extensions With FFI with Sean Handley","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8968,"path":"/rubyrogues/mrs-081-genadi-samokovarov","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        081: Genadi Samokovarov","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8963,"path":"/rubyrogues/rr-403-rails-needs-active-deployment-with-stefan-wintermeyer","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        403: Rails needs Active Deployment with Stefan Wintermeyer","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8935,"path":"/rubyrogues/mrs-080-josh-justice","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        080: Josh Justice","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8927,"path":"/rubyrogues/rr-402-ruby-260-bugs-kafka-and-karafka-with-maciej-mensfeld","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        402: Ruby 2.6.0 Bugs, Kafka, and Karafka with Maciej Mensfeld","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8897,"path":"/rubyrogues/mrs-079-chandan-jhunjhunwal","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        079: Chandan Jhunjhunwal","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8892,"path":"/rubyrogues/rr-401-environment-variables--ruby-with-jesus-castello","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        401: Environment Variables \u0026 Ruby with Jesus Castello","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8861,"path":"/rubyrogues/mrs-078-vlad-dem","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        078: Vlad Dem","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8853,"path":"/rubyrogues/rr-400-celebrating-a-milestone--ruby-rogues-400th-episode","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        400: Celebrating a Milestone - Ruby Rogues 400th Episode","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8824,"path":"/rubyrogues/mrs-077-radoslav-stankov","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        077: Radoslav Stankov","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8792,"path":"/rubyrogues/mrs-076-sihui-huang","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        076: Sihui Huang","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8785,"path":"/rubyrogues/rr-398-productivity-with-mani-vaya","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        398: Productivity with Mani Vaya","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8758,"path":"/rubyrogues/mrs-075-luca-guidi","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        075: Luca Guidi","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8751,"path":"/rubyrogues/rr-397-oracle-with-karthik-gaekwad","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        397: Oracle with Karthik Gaekwad","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8724,"path":"/rubyrogues/mrs-074-andrew-mason","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        074: Andrew Mason","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8719,"path":"/rubyrogues/rr-396-graphql-at-product-hunt-with-radoslav-stankov","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        396: GraphQL at Product Hunt with Radoslav Stankov","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8685,"path":"/rubyrogues/rr-395-ruby-in-the-forbidden-land-with-nathan-ruehs","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        395: Ruby in the Forbidden Land with Nathan Ruehs","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8608,"path":"/rubyrogues/rr-394-cables-concurrency-and-ruby-3x3-with-vladimir-dem","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        394: Cables, Concurrency, and Ruby 3x3 with Vladimir Dem","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8593,"path":"/rubyrogues/mrs-073-kerri-miller-","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        073: Kerri Miller ","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8585,"path":"/rubyrogues/rr-393-speculation-on-frameworks-with-the-panelists","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        393: Speculation on Frameworks with the Panelists","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8544,"path":"/rubyrogues/rr-392-crystal-and-lucky-with-paul-smith--andrew-mason","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        392: Crystal and Lucky with Paul Smith \u0026 Andrew Mason","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8512,"path":"/rubyrogues/mrs-072-olivier-lacan","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        072: Olivier Lacan","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8500,"path":"/rubyrogues/rr-391-frontend-testing-like-a-rubyist-with-josh-justice","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        391: Frontend Testing Like a Rubyist with Josh Justice","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8373,"path":"/rubyrogues/mrs-071-mark-bates","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"MRS
+        071: Mark Bates","podcast":{"title":"Ruby Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}},{"type_of":"podcast_episodes","id":8365,"path":"/rubyrogues/rr-390-creating-a-herokulike-deployment-solution-with-docker-with-pedro-cavalheiro","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png","title":"RR
+        390: Creating a Heroku-Like Deployment Solution with Docker with Pedro Cavalheiro","podcast":{"title":"Ruby
+        Rogues","slug":"rubyrogues","image_url":"https://thepracticaldev.s3.amazonaws.com/uploads/podcast/image/15/meLoMMa.png"}}]'
+    headers:
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      - bytes
+      Access-Control-Allow-Headers:
+      - Origin, Content-Type, Accept, Authorization, Token
+      Access-Control-Allow-Methods:
+      - POST, GET, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Origin:
+      - '*'
+      Access-Control-Max-Age:
+      - '1728000'
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 03 Apr 2019 11:46:11 GMT
+      Etag:
+      - W/"55e9fc182cd63c6935f1cf52eca39edd"
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 3cc7acc5-0bac-415e-a007-e3f5c039fbdd
+      X-Runtime:
+      - '0.045835'
+      X-Served-By:
+      - cache-den19628-DEN, cache-ams21048-AMS
+      X-Timer:
+      - S1554291971.228344,VS0,VE228
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '11694'
+    status:
+      code: 200
+      message: OK
+version: 1
