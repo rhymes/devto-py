@@ -1,0 +1,144 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      user-agent:
+      - devto-py/0.1
+    method: GET
+    uri: https://dev.to/api/tags?page=1
+  response:
+    body:
+      string: '[{"id":6,"name":"javascript","bg_color_hex":"#F7DF1E","text_color_hex":"#000000"},{"id":3371,"name":"archlinux","bg_color_hex":"#0009BD","text_color_hex":"#FFFFFF"},{"id":715,"name":"discuss","bg_color_hex":"#000000","text_color_hex":"#FFFFFF"},{"id":8,"name":"webdev","bg_color_hex":"#562765","text_color_hex":"#ffffff"},{"id":555,"name":"beginners","bg_color_hex":"#008335","text_color_hex":"#FFFFFF"},{"id":59,"name":"introductions","bg_color_hex":"","text_color_hex":""},{"id":33,"name":"programming","bg_color_hex":null,"text_color_hex":null},{"id":125,"name":"react","bg_color_hex":"#222222","text_color_hex":"#61DAF6"},{"id":630,"name":"career","bg_color_hex":"#2A2566","text_color_hex":"#FFFFFF"},{"id":25,"name":"python","bg_color_hex":"#1E38BB","text_color_hex":"#FFDF5B"}]'
+    headers:
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '0'
+      - '0'
+      - '0'
+      - '0'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 03 Apr 2019 12:04:32 GMT
+      Etag:
+      - W/"dcdb2ef248c435044b0446cb021d5cb7"
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 2aab9246-f255-44f5-b0ae-ee2e7de330bd
+      X-Runtime:
+      - '0.033637'
+      X-Served-By:
+      - cache-den19650-DEN, cache-ams21026-AMS
+      X-Timer:
+      - S1554293073.767172,VS0,VE212
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '783'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      user-agent:
+      - devto-py/0.1
+    method: GET
+    uri: https://dev.to/api/tags?page=1
+  response:
+    body:
+      string: '[{"id":6,"name":"javascript","bg_color_hex":"#F7DF1E","text_color_hex":"#000000"},{"id":3371,"name":"archlinux","bg_color_hex":"#0009BD","text_color_hex":"#FFFFFF"},{"id":715,"name":"discuss","bg_color_hex":"#000000","text_color_hex":"#FFFFFF"},{"id":8,"name":"webdev","bg_color_hex":"#562765","text_color_hex":"#ffffff"},{"id":555,"name":"beginners","bg_color_hex":"#008335","text_color_hex":"#FFFFFF"},{"id":59,"name":"introductions","bg_color_hex":"","text_color_hex":""},{"id":33,"name":"programming","bg_color_hex":null,"text_color_hex":null},{"id":125,"name":"react","bg_color_hex":"#222222","text_color_hex":"#61DAF6"},{"id":630,"name":"career","bg_color_hex":"#2A2566","text_color_hex":"#FFFFFF"},{"id":25,"name":"python","bg_color_hex":"#1E38BB","text_color_hex":"#FFDF5B"}]'
+    headers:
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '0'
+      - '0'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 03 Apr 2019 12:04:33 GMT
+      Etag:
+      - W/"f43f8470643c84b939df044e723cb1a0"
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 39177c74-424f-4432-a6eb-99778cd039b3
+      X-Runtime:
+      - '0.008121'
+      X-Served-By:
+      - cache-den19625-DEN, cache-ams21040-AMS
+      X-Timer:
+      - S1554293073.322014,VS0,VE186
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '783'
+    status:
+      code: 200
+      message: OK
+version: 1

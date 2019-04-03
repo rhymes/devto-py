@@ -1,0 +1,72 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      user-agent:
+      - devto-py/0.1
+    method: GET
+    uri: https://dev.to/api/tags?page=1
+  response:
+    body:
+      string: '[{"id":6,"name":"javascript","bg_color_hex":"#F7DF1E","text_color_hex":"#000000"},{"id":3371,"name":"archlinux","bg_color_hex":"#0009BD","text_color_hex":"#FFFFFF"},{"id":715,"name":"discuss","bg_color_hex":"#000000","text_color_hex":"#FFFFFF"},{"id":8,"name":"webdev","bg_color_hex":"#562765","text_color_hex":"#ffffff"},{"id":555,"name":"beginners","bg_color_hex":"#008335","text_color_hex":"#FFFFFF"},{"id":59,"name":"introductions","bg_color_hex":"","text_color_hex":""},{"id":33,"name":"programming","bg_color_hex":null,"text_color_hex":null},{"id":125,"name":"react","bg_color_hex":"#222222","text_color_hex":"#61DAF6"},{"id":630,"name":"career","bg_color_hex":"#2A2566","text_color_hex":"#FFFFFF"},{"id":25,"name":"python","bg_color_hex":"#1E38BB","text_color_hex":"#FFDF5B"}]'
+    headers:
+      Accept-Ranges:
+      - bytes
+      - bytes
+      - bytes
+      - bytes
+      Access-Control-Allow-Origin:
+      - '*'
+      Age:
+      - '0'
+      - '0'
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 03 Apr 2019 12:04:35 GMT
+      Etag:
+      - W/"cc489b26f2886760852df5cd7fe5b1db"
+      Server:
+      - Cowboy
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Accept-Encoding, X-Loggedin
+      Via:
+      - 1.1 vegur
+      - 1.1 varnish
+      - 1.1 varnish
+      X-Cache:
+      - MISS, MISS
+      X-Cache-Hits:
+      - 0, 0
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Request-Id:
+      - 1f08d067-ada2-49fa-9f20-8ddf5693a171
+      X-Runtime:
+      - '0.009446'
+      X-Served-By:
+      - cache-den19630-DEN, cache-ams21041-AMS
+      X-Timer:
+      - S1554293075.418018,VS0,VE187
+      X-Xss-Protection:
+      - 1; mode=block
+      content-length:
+      - '783'
+    status:
+      code: 200
+      message: OK
+version: 1
