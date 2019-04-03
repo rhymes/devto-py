@@ -19,27 +19,6 @@ def test_articles(vcr):
         assert articles()
 
 
-def test_articles_first_result_keys(vcr):
-    with vcr.use_cassette("articles_get"):
-        article = articles()[0]
-        assert {
-            "canonical_url",
-            "comments_count",
-            "cover_image",
-            "description",
-            "id",
-            "path",
-            "positive_reactions_count",
-            "published_at",
-            "slug",
-            "tag_list",
-            "title",
-            "type_of",
-            "url",
-            "user",
-        } == article.keys()
-
-
 def test_articles_defaults_to_first_page(vcr):
     with vcr.use_cassette("articles_get_default_page"):
         default_page = articles()
