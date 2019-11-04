@@ -6,8 +6,8 @@ authors = ["rhymes"]
 license = "MIT"
 
 [tool.poetry.dependencies]
-python = "^3.5"
-requests = "^2.22"
+python = "^3.6"
+httpx = "^0.7.6"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.5"

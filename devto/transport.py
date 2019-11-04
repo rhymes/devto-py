@@ -4,7 +4,7 @@
 
 from urllib.parse import urljoin
 
-import requests
+import httpx
 
 from . import exceptions
 from .__version__ import __version__
@@ -19,17 +19,17 @@ def get(path, **params):
     headers = {"user-agent": "devto-py/%s" % __version__}
 
     try:
-        response = requests.get(
+        response = httpx.get(
             urljoin(BASE_URL, path), params=params, headers=headers, timeout=2
         )
         response.raise_for_status()
         return response.json()
-    except requests.exceptions.Timeout as exc:
+    except httpx.exceptions.Timeout as exc:
         raise exceptions.TimeoutError(str(exc)) from exc
-    except requests.exceptions.HTTPError as exc:
+    except httpx.exceptions.HTTPError as exc:
         if exc.response.status_code == 404:
             raise exceptions.NotFound(str(exc)) from exc
         raise exceptions.HTTPError(str(exc)) from exc
-    except requests.exceptions.RequestException as exc:
+    except httpx.exceptions.RequestException as exc:
         raise exceptions.RequestError(str(exc)) from exc
 
